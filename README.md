@@ -10,6 +10,10 @@ A collection of SQL projects I built while learning and practicing SQL. This rep
 
 A SQL retail sales analysis project built with PostgreSQL to explore and analyze transactional sales data. The project includes creating a retail sales database and table, identifying and removing records containing NULL values, exploring sales data, and answering key business questions using SQL. The analysis covers sales and customer metrics, product categories, gender-based transactions, monthly sales performance, top customers, unique customers by category, and order distribution across different time shifts. The project demonstrates practical use of filtering, aggregation, grouping, date and time functions, subqueries, common table expressions (CTEs), CASE statements, window functions, and ranking.
 
+### 2. Library Management System
+
+A SQL library management system project built to manage books, members, employees, branches, and book issue and return records. The project includes creating and connecting multiple tables, managing library records, and answering a series of practical questions related to library operations. The analysis covers book availability, member activity, overdue books, rental revenue, branch performance, employee performance, damaged book returns, and overdue fines. The project also includes creating summary tables and stored procedures to automate book issuing and returning, while demonstrating practical use of joins, filtering, aggregation, subqueries, common table expressions (CTEs), CTAS, conditional logic, and date-based calculations.
+
 ---
 
 More projects will be added over time.

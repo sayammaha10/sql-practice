@@ -14,6 +14,10 @@ A SQL retail sales analysis project built with PostgreSQL to explore and analyze
 
 A SQL library management system project built to manage books, members, employees, branches, and book issue and return records. The project includes creating and connecting multiple tables, managing library records, and answering a series of practical questions related to library operations. The analysis covers book availability, member activity, overdue books, rental revenue, branch performance, employee performance, damaged book returns, and overdue fines. The project also includes creating summary tables and stored procedures to automate book issuing and returning, while demonstrating practical use of joins, filtering, aggregation, subqueries, common table expressions (CTEs), CTAS, conditional logic, and date-based calculations.
 
+### 3. Netflix Data Analysis
+
+A SQL Netflix data analysis project built to explore and analyze a dataset of movies and TV shows available on Netflix. The project includes creating a Netflix titles table and answering a series of questions related to content types, ratings, release years, countries, genres, directors, actors, and content duration. The analysis covers the most common ratings, top content-producing countries, longest movies, recently added content, movies and TV shows by director, TV shows with more than five seasons, genre distribution, content released in the United States, and audience-based content categories. The project demonstrates practical use of filtering, aggregation, string and date functions, subqueries, common table expressions (CTEs), CASE statements, array operations, window functions, and ranking.
+
 ---
 
 More projects will be added over time.

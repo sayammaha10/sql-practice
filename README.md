@@ -18,6 +18,10 @@ A SQL library management system project built to manage books, members, employee
 
 A SQL Netflix data analysis project built to explore and analyze a dataset of movies and TV shows available on Netflix. The project includes creating a Netflix titles table and answering a series of questions related to content types, ratings, release years, countries, genres, directors, actors, and content duration. The analysis covers the most common ratings, top content-producing countries, longest movies, recently added content, movies and TV shows by director, TV shows with more than five seasons, genre distribution, content released in the United States, and audience-based content categories. The project demonstrates practical use of filtering, aggregation, string and date functions, subqueries, common table expressions (CTEs), CASE statements, array operations, window functions, and ranking.
 
+### 4. Spotify Data Analysis
+
+A SQL Spotify data analysis project built to explore and analyze track, album, artist, and streaming data. The project includes creating a Spotify tracks table, performing exploratory data analysis, cleaning records with invalid track durations, and answering a series of questions related to streams, views, likes, comments, album types, and audio features. The analysis covers highly streamed tracks, artist and album statistics, average danceability, energy levels, official video performance, platform comparisons, top tracks by artist, liveness scores, energy-to-liveness ratios, and cumulative likes. The project demonstrates practical use of filtering, aggregation, subqueries, common table expressions (CTEs), string and numeric operations, and window functions.
+
 ---
 
 More projects will be added over time.

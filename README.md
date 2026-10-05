@@ -22,6 +22,10 @@ A SQL Netflix data analysis project built to explore and analyze a dataset of mo
 
 A SQL Spotify data analysis project built to explore and analyze track, album, artist, and streaming data. The project includes creating a Spotify tracks table, performing exploratory data analysis, cleaning records with invalid track durations, and answering a series of questions related to streams, views, likes, comments, album types, and audio features. The analysis covers highly streamed tracks, artist and album statistics, average danceability, energy levels, official video performance, platform comparisons, top tracks by artist, liveness scores, energy-to-liveness ratios, and cumulative likes. The project demonstrates practical use of filtering, aggregation, subqueries, common table expressions (CTEs), string and numeric operations, and window functions.
 
+### 5. Market Expansion Analysis
+
+A SQL market expansion analysis project built to explore sales, customer, product, and city data to identify potential markets for business growth. The project includes creating related tables for cities, customers, products, and sales, and answering key business questions related to coffee consumers, revenue, product sales, customer activity, ratings, and market performance. The analysis covers top-selling products by city, average sales per customer, revenue-to-rent ratios, monthly sales growth, and the top cities based on overall market potential. The project demonstrates practical use of joins, aggregation, filtering, date functions, subqueries, common table expressions (CTEs), window functions, and ranking.
+
 ---
 
 More projects will be added over time.

@@ -26,6 +26,10 @@ A SQL Spotify data analysis project built to explore and analyze track, album, a
 
 A SQL market expansion analysis project built to explore sales, customer, product, and city data to identify potential markets for business growth. The project includes creating related tables for cities, customers, products, and sales, and answering key business questions related to coffee consumers, revenue, product sales, customer activity, ratings, and market performance. The analysis covers top-selling products by city, average sales per customer, revenue-to-rent ratios, monthly sales growth, and the top cities based on overall market potential. The project demonstrates practical use of joins, aggregation, filtering, date functions, subqueries, common table expressions (CTEs), window functions, and ranking.
 
+### 6. Walmart Data Analysis
+
+A Walmart sales data analysis project using Python and SQL to explore transaction data and identify business insights. The project includes cleaning and preparing sales data with Pandas, connecting Python to PostgreSQL, and loading the cleaned dataset into a database for analysis. The analysis covers payment methods, transaction volume, customer ratings, city revenue, category profitability, sales shifts, and year-over-year revenue decreases by branch. The project demonstrates practical use of data cleaning, database connectivity, aggregation, grouping, date and time functions, CASE statements, common table expressions (CTEs), window functions, and ranking.
+
 ---
 
 More projects will be added over time.

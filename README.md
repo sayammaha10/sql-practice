@@ -30,6 +30,10 @@ A SQL market expansion analysis project built to explore sales, customer, produc
 
 A Walmart sales data analysis project using Python and SQL to explore transaction data and identify business insights. The project includes cleaning and preparing sales data with Pandas, connecting Python to PostgreSQL, and loading the cleaned dataset into a database for analysis. The analysis covers payment methods, transaction volume, customer ratings, city revenue, category profitability, sales shifts, and year-over-year revenue decreases by branch. The project demonstrates practical use of data cleaning, database connectivity, aggregation, grouping, date and time functions, CASE statements, common table expressions (CTEs), window functions, and ranking.
 
+### 7. User Performance Analysis
+
+A SQL user performance analysis project built to explore and analyze user submission data and evaluate performance based on points earned. The project includes creating a user submissions table and answering key business questions related to submission activity, daily average points, incorrect submissions, and weekly performance. The analysis covers total submissions and points earned by each user, daily average points, top users with the most positive submissions each day, users with the highest number of incorrect submissions, and the top weekly performers based on total points earned. The project demonstrates practical use of filtering, aggregation, grouping, date and time functions, conditional logic, common table expressions (CTEs), window functions, and ranking.
+
 ---
 
 More projects will be added over time.

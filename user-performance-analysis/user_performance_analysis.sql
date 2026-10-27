@@ -110,3 +110,24 @@ SELECT
 FROM ranked_users
 WHERE performance_rank <= 10
 ORDER BY week_start, performance_rank, username;
+
+-- 6. Find each user's highest-scoring submission.
+SELECT
+	username,
+	question_id,
+	points AS highest_points,
+	submitted_at
+FROM (
+	SELECT
+		username,
+		question_id,
+		points,
+		submitted_at,
+		RANK() OVER (
+			PARTITION BY username
+			ORDER BY points DESC
+		) AS submission_rank
+	FROM user_submissions
+) AS ranked_submissions
+WHERE submission_rank = 1
+ORDER BY highest_points DESC, username;

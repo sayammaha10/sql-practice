@@ -159,6 +159,38 @@ WHERE submission_rank = 1
 ORDER BY highest_points DESC, username;
 ```
 
+### 7. Calculate Each User's Submission Success Rate
+
+```sql
+SELECT
+    username,
+    COUNT(*) AS total_submissions,
+    SUM(CASE WHEN points > 0 THEN 1 ELSE 0 END) AS successful_submissions,
+    ROUND(
+        100.0 * SUM(CASE WHEN points > 0 THEN 1 ELSE 0 END) / NULLIF(COUNT(*), 0),
+        2
+    ) AS success_rate
+FROM user_submissions
+GROUP BY username
+ORDER BY success_rate DESC, total_submissions DESC;
+```
+
+### 8. Identify Questions with the Highest Failure Rates
+
+```sql
+SELECT
+    question_id,
+    COUNT(*) AS total_attempts,
+    SUM(CASE WHEN points < 0 THEN 1 ELSE 0 END) AS incorrect_attempts,
+    ROUND(
+        100.0 * SUM(CASE WHEN points < 0 THEN 1 ELSE 0 END) / NULLIF(COUNT(*), 0),
+        2
+    ) AS failure_rate
+FROM user_submissions
+GROUP BY question_id
+ORDER BY failure_rate DESC, total_attempts DESC;
+```
+
 ## SQL Concepts Used
 
 - Aggregate functions: `COUNT()`, `SUM()`, and `AVG()`
